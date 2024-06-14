@@ -4,8 +4,8 @@ class Program
     static void Main()
     {
         Console.Title = "Move star with cursor";
-        Console.Write("Enter the moving element -> ");
-        string movingElement = Console.ReadLine();
+        
+        string movingElement = "*";
 
         ConsoleKeyInfo keyInfo;
         int cursorLeft = Console.CursorLeft;
